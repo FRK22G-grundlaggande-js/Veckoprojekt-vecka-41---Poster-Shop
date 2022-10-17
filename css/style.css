@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #000;
+}
+
+header {
+    height: 100vh;
+    background-color: #3DE07E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navicon {
+    width: 2rem;
+    align-self: flex-start;
+    margin: 1rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.ninjahead {
+    width: 14rem;
+}
+
+main {
+    margin: 4rem auto;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+}
+
+main article {
+    grid-column: auto / span 2;
+    color: #eee;
+}
+
+main article img {
+    width: 100%;
+}
+
+article.large {
+    grid-column: auto / span 3;
+}
+
+article p {
+    height: 10rem;
+}
+
+
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #eb3737;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.2);
+    display:flex;
+    justify-content: center;
+}
+
+footer .content {
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+    margin: 2rem;
+    color: #eee;
+}
+
+footer .content p {
+    grid-column: auto / span 2;
+}
