@@ -51,6 +51,14 @@ main article img {
 
 article.large {
     grid-column: auto / span 3;
+    background-color: #eee;
+    color: #222;
+}
+
+article.large p, 
+article.large h2, 
+article.large button {
+    margin: 1rem;
 }
 
 article p {
